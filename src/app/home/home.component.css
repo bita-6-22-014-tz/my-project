@@ -1,0 +1,64 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* light gray background */
+  }
+  
+  /* Home page styles */
+  
+  .Home1 {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Home1 h1 {
+    margin-bottom: 10px;
+  }
+  
+  .home2,.home3 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  .home2 label,.home3 label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #009688; /* blue-green background */
+    color: #fff; 
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  }
+  
+  .btn:hover {
+    background-color: #00796b; /* darker blue-green background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* more prominent shadow on hover */
+  }
+  
+  .btn:active {
+    background-color: #00695c; /* even darker blue-green background on active */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1); /* no shadow on active */
+  }
+  
+  #pay-bill-btn, #view-bill-btn {
+    width: 100%;
+  }

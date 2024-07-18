@@ -1,0 +1,42 @@
+body {
+	background-color: #f9f9f9;
+	font-family: Arial, sans-serif;
+}
+
+#pay-bill-form {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"], select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+	border-color: #4CAF50;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}

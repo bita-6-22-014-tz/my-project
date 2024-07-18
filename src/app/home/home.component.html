@@ -1,0 +1,28 @@
+<head>
+	<title>Home</title>
+</head>
+<body>
+    <div class="Home1">
+        <h1>SELECT TO MAKE PAYMENT</h1>
+    </div>
+	<div class="home2">
+        <label>pay Bill</label>
+        <button class="btn" id="pay-bill-btn"><a routerLink="/paybill">select</a></button>
+        </div>
+        <div class="home3">
+        <label>View Bill</label>
+
+    	<button class="btn" id="view-bill-btn"><a routerLink="/viewbill">select</a></button>
+        
+        </div>
+	<script>
+	
+		document.getElementById("pay-bill-btn").addEventListener("click", function() {
+			window.location.href = "pay_bill.html";
+		});
+
+		document.getElementById("view-bill-btn").addEventListener("click", function() {
+			window.location.href = "view_bill.html";
+		});
+	</script>
+</body>

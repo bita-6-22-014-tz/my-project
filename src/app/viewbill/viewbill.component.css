@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bill-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bill-summary {
+    margin-bottom: 20px;
+}
+
+.bill-summary h2 {
+    margin-top: 0;
+}
+
+.bill-summary p {
+    margin-bottom: 10px;
+}
+
+.bill-summary span {
+    font-weight: bold;
+}
+
+.bill-details {
+    margin-bottom: 20px;
+}
+
+#water-usage-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#water-usage-table th, #water-usage-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#water-usage-table th {
+    background-color: #f0f0f0;
+}
+
+.payment-options {
+    margin-bottom: 20px;
+}
